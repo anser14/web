@@ -1,0 +1,41 @@
+ git commands
+
+----------------------
+git config --global user.name AnserAli-> to save username 
+git config --global user.email abc@mail.com -> to save email
+
+
+------------------
+git init -> to start git 
+code . -> to start vsc or code editer
+---------------------------
+git status -> to check status of files in the folder
+
+git add filename.html  -> to add file in  git
+
+
+---------------------------
+git add -a -> to add all files to git
+ git commit -m main.js -> to commit file 
+
+ git commit -am "added js file"-> commit file with comment 
+-------------------------
+git checkout file.html -> to match the previous version of file before modification
+
+
+git checkout -f to match previous version of all files
+--------------------------
+git log -> to give all the comment and changes logs
+
+git log -p -1 -> gives the last change and comment that someoone makes
+
+git diff -> to check the difference of the files what changes made in file
+git diff --staged -> to compare current change to last change
+git commit -a -m "comment here" -> to save evverythinng direct command but use one by one
+
+git rm --cached file.html -> remove files from staged area
+git rm filename -> to remove file from folder
+
+touch .gitignore -> to ignore all files we want we have to put them in this file using thier name
+
+
